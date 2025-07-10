@@ -11,7 +11,7 @@ const options: DataSourceOptions = {
     password: '1234',
     database: 'todo',
     entities: [Todo],
-    synchronize: false,      // set to false in production
+    synchronize: true,      // set to false in production
     migrations: ["dist/migrations/*.js"],
 
 };
